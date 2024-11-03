@@ -48,7 +48,7 @@ Since searching by the modulus and exponent did not produce results, I broadened
 Among the listed subdomains, one particular subdomain stood out as it seemed to contain a hint relevant to the challenge. This subdomain followed a pattern suggesting it might contain the flag.
 
 **Screenshot of Subdomain Hint:**  
-![Subdomain hint on crt.sh](./path/to/image2.png)
+![Subdomain hint on crt.sh](subdomain.png)
 
 Upon visiting this subdomain, I successfully located the flag as required by the challenge.
 
