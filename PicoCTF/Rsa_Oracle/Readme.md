@@ -79,13 +79,15 @@
     from pwn import *
     
     context.log_level='critical'
-    p = remote("titan.picoctf.net", 63546)
+    p = remote("titan.picoctf.net", 63546) #change with the original nc port
     
     p.recvuntil(b"decrypt.")
     
     # Read the encrypted password from the file
     with open("password.enc") as file:
         encp = int(file.read())
+
+   #for direct pass value use encp = [pass_cipher]
     
     # Send command to encrypt random number r (r = 3)
     p.sendline(b"E")
