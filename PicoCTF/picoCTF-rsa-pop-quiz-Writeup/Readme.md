@@ -4,7 +4,7 @@
 ## Problem Statement
 > Class, take your seats! It's PRIME-time for a quiz... nc jupiter.challenges.picoctf.org 18821
 
-![Problem Image](Rsa_Oracle.png)
+![Problem Image](Statenent.png)
 
 ## Solution Steps I Used
 
@@ -16,7 +16,7 @@
    ```
 
 The Server Response With:
-![Problem Image](Rsa_Oracle.png)
+![Problem Image](Overview.png)
 
 #### **2. Understand the Problems**
 
@@ -135,7 +135,7 @@ Each problem specifies the inputs and asks whether a computation is feasible (Y/
     `Y`  
     `plaintext: 1431166394270967486...`
 
-![Problem Image](Rsa_Oracle.png)
+![Problem Image](Final.png)
 
 ----------
 #### **4. Final Task**
